@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function getContent() {
+    // Create an XMLHttpRequest object
+    const xhttp = new XMLHttpRequest();
+
+    // Define a callback function
+    xhttp.onload = function() {
+      document.getElementById("result").innerHTML = this.responseText;
+    }
+
+    // Send a request
+    xhttp.open("GET", "https://httpbin.org/get");
+    xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+    xhttp.send();
+  }
+</script>
+</head>
+<body>
+
+  <p><button onclick="getContent()" type="button">Get Test Content</button></p>
+  <div id="result"></div>
+
+</body>
+</html>

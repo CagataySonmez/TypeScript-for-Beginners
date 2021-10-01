@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"amd",
+      "sourceMap": true,
+      "allowJs": true,
+      "outDir": "build",
+      "outFile":"build/build.js",
+      "watch": true
+    },
+    "files" : [
+      "HelloWorld.ts",
+      "lib/jquery-3.6.0.js"
+    ]
+}
+
+

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"amd",
+      "sourceMap": true,
+      "outDir": "build",
+      "outFile": "build/out.js"
+    },
+    "files": [
+      "AndroidTV.ts",
+      "Visitor.ts",
+      "main.ts"
+    ]
+}

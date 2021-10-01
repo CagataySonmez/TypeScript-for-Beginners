@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <button onclick="echo()">Echo</button> 
+
+  <script>
+    function echo() {
+      var socket = new WebSocket('wss://demo.piesocket.com/v3/1?api_key=oCdCMcMPQpbvNjUIzqtvF1d2X2okWpDQj4AwARJuAgtjhzKxVEjQU6IdCjwm');
+	  
+      socket.onopen = function(event) {
+        socket.send('Hello, WebSocket');
+      }
+
+      socket.onmessage = function(event) {
+        alert("received: " + event.data);
+      }
+	  
+      socket.onclose = function(event) {
+        alert('web socket session is closed');
+      }
+	  
+      socket.onerror = function(event) {
+        alert('cannot connect web socket server');
+      }
+    }
+  </script>
+
+</body>
+</html>

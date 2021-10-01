@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"amd",
+      "sourceMap": true,
+      "outDir": "build",
+      "outFile": "build/out.js"
+    },
+    "files": [
+      "IPizzaBuilder.ts",
+      "PizzaBuilder.ts",
+      "Pizza.ts",
+      "main.ts"
+    ]
+}

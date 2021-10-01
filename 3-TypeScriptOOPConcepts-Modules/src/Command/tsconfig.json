@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"amd",
+      "sourceMap": true,
+      "outDir": "build",
+      "outFile": "build/out.js"
+    },
+    "files": [
+      "Receiver.ts",
+      "Invoker.ts",
+      "Commands.ts",
+      "main.ts"
+    ]
+}

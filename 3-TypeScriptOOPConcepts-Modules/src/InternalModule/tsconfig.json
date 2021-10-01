@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"AMD",
+      "sourceMap": true,
+      "outDir": "build",
+      "outFile": "build/out.js"
+    },
+    "files": [
+      "ICar.ts",
+      "Car.ts",
+      "main.ts"
+    ]
+}
