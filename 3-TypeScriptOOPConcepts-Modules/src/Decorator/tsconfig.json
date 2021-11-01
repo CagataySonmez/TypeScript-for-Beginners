@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module":"amd",
+      "sourceMap": true,
+      "outDir": "build",
+      "outFile": "build/out.js"
+    },
+    "files": [
+      "IApp.ts",
+      "AndroidApp.ts",
+      "AppDecorator.ts",
+      "WebAppDecorator.ts",
+      "HbbtvAppDecorator.ts",
+      "main.ts"
+    ]
+}
